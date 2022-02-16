@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,700&family=Poppins:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400&display=swap');
+
+
+
+
+/*========================================
+indexing
+========
+1)header
+========================================*/
+/*=======================================
+1)header
+========================================*/
+body{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+:root{
+    --main-color:var(#2500f9);
+}
+ a{
+    text-decoration: none;
+
+}
+.mybtn{
+    background-color: #2500f9;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.mybtn:hover{
+    background-color: #fcae61;
+}
+#immg{
+    margin-top: 100px;
+}
+header{
+   
+    height: 140px;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+header .navbar-brand {
+    font-size: 30px;
+    font-weight: 800;
+    color: #fcae61;
+}
+header .navbar-brand span{
+    color: #5d5e63;
+}
+header .nav-link{
+    color: #2500f9;
+    margin: 0px 13px;
+
+}
+
+.navbar .navbar-brand{
+    color: #fcae61;
+}
+#immg{
+    height: 70vh;
+    background: url("img/shape.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+#immg .all{
+    position: relative;
+    background-color:#d9f5e2;
+    
+}
+#immg .crim{
+    position: absolute;
+    display: flex;
+    border-radius: 50%;
+    color: #fcae61;
+    
+
+  
+}
+#immg .pill{
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #616368;
+}
+#immg .con .btn{
+   margin: 10px 5px; 
+}
+#immg .con p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 450px;
+    margin-top: 20px;
+}
+#immg .con h2{
+    
+    font-size: 60px;
+    font-weight: 600;
+    color: #242f51;
+
+}
+
+#immg .ima {
+    margin-left: 300px;
+}
+#immg .ima img{
+    width: 300px;
+    margin-top: -80px;
+
+}
+#brand{
+    height: 50vh;
+    margin-top: 100px;
+}
+#brand .bran p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5d5e63;
+}
+#brand .bran img{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+#box .col-md-6:last-child{
+    width: 600px;
+    height: 100px;
+    margin-left: 30px;
+}
+#box .kite img{
+    width: 600px;
+    margin-top: -50px;
+}
+#box .dog .cat{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -100px;
+}
+#box .text h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+}
+#box .text p{
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: #5d5e63;
+
+}
+#box .dog{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#box .dog h2{
+    color: #f55767;
+    font-size: 20px;
+    font-weight: 600;
+}
+#box .dog p{
+    color: #616368;
+    margin-top: 20px;
+}
+#box .dog h3{
+    color: #2563ff;
+    font-size: 20px;
+    font-weight: 600;
+}
+#box .dog h4{
+    
+    color: #40975f;
+    font-size: 20px;
+    font-weight: 600;
+}
+#seen {
+  padding: 50px 0;
+  margin-bottom: 90px;
+}
+
+#seen .col-md-6:last-child{
+    border-left: 1px solid #242f51;
+}
+
+.read{
+    margin-left: 300px;
+}
+
+
+.right{
+    margin-top: 15px;
+    margin-left: 50px;
+}
+/* #seen .row .read{
+    width: 300px;
+    font-size: 35px;
+    font-weight: 600;
+  
+    border-right:1px solid #bfc2c9 ;
+    opacity: rgba(0,0,0,0.7)
+}
+#seen .row .right{
+    width: 300px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: -280px;
+   
+} */
+#apple{
+    height: 50vh;
+}
+#apple .fan{
+    width: 300px;
+    margin-left:50px;
+}
+#apple .fan h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #f55767;
+}
+#apple .fan p{
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: 400;
+    color: #5d5e63;
+}
+#apple .egg h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #2563ff;
+}
+#apple .ear h3{
+    font-size: 20px;
+    font-weight: 600;
+    color: #40975f;
+}
+#apple .row{
+    margin-left: 80px;
+}
+#built{
+    height: 100vh;
+}
+#built .text{
+    margin-top: 120px;
+}
+#built .text h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #242f51;
+}
+#built .text p{
+    font-size: 16px;
+   margin-top: 20px;
+    font-weight: 400;
+    color: #616368;
+}
+
+.crim-8888{
+    background: #e2eaed;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    gap: 10px;
+
+}
+
+.crim-8888 i{
+    font-size: 30px;
+    color: #feaa25;
+}
+#ourapp .row h2{
+    font-size: 36px;
+    font-weight: 600;
+    
+}
+#ourapp .row p{
+    font-size: 16px;
+   margin-top: 20px;
+    font-weight: 400;
+    color: #616368;
+}
+#ourapp .ball{
+    width: 300px;
+    margin-top: 150px;
+}
+#ourapp .ball h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #242f51;
+}
+#ourapp .ball img{
+    margin-top: -100px;
+}
